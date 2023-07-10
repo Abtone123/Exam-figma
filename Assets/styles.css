@@ -301,7 +301,7 @@ strong{
     font-size: 40px;
 }
 .boxes{
-    padding: ;
+    padding: 0;
     font-family: 'Gilroy-medium';
 }
 .top{
@@ -411,43 +411,125 @@ strong{
 }
 .pattern{
     width: 1500px;
-    height: 523px;
+    max-height: 4000px;
     background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
 }
 .right-img{
-    margin-top: -1000px;
     margin-left: -500px;
-    opacity: 0.7;
-    transform: rotate(22.1deg);
+    opacity: 1;
+    transform: rotate(22.1deg); 
 }
-.frame-box{
-    width: 476px;
+.form-container{
+    width: 465px;
     height: 355px;
-    left: 482px;
-    top: 83.5px;
-    background: #FFFFFF;
-    border-radius: 12px;
-    margin-left: 495px;
+    background-color: #FFFFFF;
     margin-top: -450px;
+    margin-left: 500px;
+    border-radius: 13px;
 }
-.frame-top{
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 4px 12px;
-gap: 10px;
-width: 392px;
-height: 55px;
-border: 1px solid #3284FF;
-border-radius: 12px;
-margin: 20px;
-margin-top: 40px;
+#URL{
+   border: 2px solid;
+   width: 392px;
+   height: 55px;
+   border-color: #3284FF;
+   border-radius: 12px;
+   padding: 8px 12px 8px 12px;
+   margin: 20px;
 }
-.frame-middle{
-    display: flex;
-    flex-direction: row;
+#choose-domain{
+    height: 55px;
+    border:2px solid #3284FF;
+    padding: 8px 12px 8px 12px;
+    border-radius: 12px;
+    margin-left: 20px;
 }
-.middle-item{
-    
+#Alias{
+    height: 55px;
+    border:2px solid #3284FF;
+    padding: 8px 12px 8px 12px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+.form-button{
+    background-color: #005AE2;
+    color: #F9FBFD;
+    width: 420px;
+    height: 55px;
+    border-color: #005AE2;
+    border-radius: 12px;
+    margin: 20px;
+}
+.form-footer{
+    color: #005AE2;
+    margin: 20px;
+    margin-top: -5px;
+    font-family: 'Gilroy-medium';
+}
+.faq{
+    background-color: #FFFFFF;
+    width: auto;
+    height: 1153px;
+    padding: 10px 0px 0px 700px;
+}
+
+.faq-header h1{
+    margin-top: -50px;
+    margin-left: 10px;
+    width: 96px;
+    height: 32px;
+    font-style: 'Gilroy-Bold';
+    font-size: 40px;
+}
+
+.faq .faq-body{
+    /* display: flex;
+    justify-content: center;*/
+    margin-top: 100px;
+    margin-left: -300px;
+    width: 792px;
+    height: 63px;
+    padding-left: -700px; 
+}
+.sign1{
+    padding-left: 470px;
+    font-size: 30px;
+}
+.sign2{
+    padding-left: 290px;
+    font-size: 20px;
+}
+.sign3{
+    padding-left: 400px;
+    font-size: 20px;
+}
+.sign4{
+    padding-left: 332px;
+    font-size: 20px;
+}
+.sign5{
+    padding-left: 304px;
+    font-size: 20px;
+}
+.sign6{
+    padding-left: 404px;
+    font-size: 20px;
+}
+.sign7{
+    padding-left: 17px;
+    font-size: 20px;
+}
+.sign8{
+    padding-left: 740px;
+    font-size: 20px;
+}
+.size9{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.faq-item{
+    padding-bottom: 20px;
+}
+.rev{
+    height: 400px;
+    background-color: #1E3448;
 }
